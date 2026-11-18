@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Dostawy wyposażenia dla instytucji i zamówień publicznych | GM Trade</title>
+<meta name="description" content="GM Trade s.c. - kompleksowe dostawy dla sektora publicznego: analiza specyfikacji (OPZ), dobór produktów zgodnych 1:1 z wymaganiami i terminowa dostawa. Meble, sprzęt sportowy, AGD i RTV, narzędzia, wyposażenie gastronomiczne. Tel. 662 446 112.">
+<meta name="theme-color" content="#23272b">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="img/hero-m-760.webp" imagesrcset="img/hero-m-480.webp 480w, img/hero-m-760.webp 760w" imagesizes="100vw" media="(max-width:760px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-1600.webp" imagesrcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-2000.webp 2000w" imagesizes="100vw" media="(min-width:761px)" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="fonts/archivo-rdzen.woff2" crossorigin>
+<style>
+@font-face{font-family:Archivo;src:url(fonts/archivo-rdzen.woff2) format("woff2");font-weight:400 800;font-stretch:75% 100%;font-display:swap;unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2014,U+2018-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:Archivo;src:url(fonts/archivo-pl.woff2) format("woff2");font-weight:400 800;font-stretch:75% 100%;font-display:swap;unicode-range:U+0104-0107,U+010C-010D,U+0118-011B,U+0141-0144,U+0158-0161,U+016E-016F,U+0179-017E}
+@font-face{font-family:"Archivo fb";src:local("Arial");size-adjust:104%;ascent-override:88%;descent-override:22%}
+:root{--blue:#48a7d4;--blue-d:#1a6d98;--graf:#23272b;--graf2:#2f3439;--ink:#1a1d20;--mut:#4f565c;--g:#eef1f4;--line:#d6dbe0;--hh:62px;--w:min(calc(100vw - 32px),1760px)}
+@media (min-width:761px){:root{--hh:84px;--w:min(92vw,1760px)}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--hh);-webkit-text-size-adjust:100%}
+body{margin:0;font-family:Archivo,"Archivo fb",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:clamp(16px,.22vw + 15px,19px);line-height:1.6;color:var(--ink);background:#fff;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{margin:0;font-weight:800;font-stretch:85%;line-height:1.04;letter-spacing:-.012em}
+h2{font-size:clamp(32px,3.3vw,64px)}
+h3{font-size:clamp(20px,1.25vw,25px);font-stretch:92%;font-weight:700;line-height:1.18}
+p{margin:0}
+.wrap{width:var(--w);margin:0 auto}
+.skip{position:absolute;left:-999px}.skip:focus{left:16px;top:8px;z-index:99;background:#fff;padding:8px 12px}
+/* przycisk = ukosne ciecie jak litery GM */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:56px;padding:0 38px;background:var(--blue);color:var(--graf);font:800 1.06rem/1 Archivo,"Archivo fb",Arial,sans-serif;font-stretch:90%;text-decoration:none;border:0;cursor:pointer;clip-path:polygon(14px 0,100% 0,calc(100% - 14px) 100%,0 100%);transition:background .15s,color .15s;-webkit-tap-highlight-color:transparent}
+.btn:hover{background:#6bbbe0}
+.btn:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.btn.ciem{background:var(--graf);color:#fff}.btn.ciem:hover{background:var(--graf2)}
+.btn svg{width:30px;height:17px;flex:none}
+/* znacznik = ukosna belka z logo */
+.cut{display:inline-block;width:12px;height:26px;background:var(--blue);transform:skewX(-22deg);flex:none}
+/* naglowek */
+.top{position:fixed;top:0;left:0;right:0;z-index:50;height:var(--hh);color:#fff;transition:background .2s,color .2s,box-shadow .2s}
+.top.sc{background:#fff;color:var(--ink);box-shadow:0 1px 0 var(--line),0 8px 22px rgba(20,24,28,.07)}
+.top .wrap{height:100%;display:flex;align-items:center;gap:22px}
+.logo{display:inline-flex;align-items:center;text-decoration:none;color:inherit;flex:none}
+.logo svg{height:clamp(34px,2.4vw,44px);width:auto;overflow:visible}
+.menu{display:flex;align-items:center;gap:clamp(18px,1.9vw,40px);margin-left:auto}
+.menu a{text-decoration:none;font-weight:600;font-size:1rem;padding:6px 0;border-bottom:2px solid transparent}
+.menu a:hover,.menu a.on{border-bottom-color:var(--blue)}
+.menu .tel{font-weight:800;font-size:1.08rem;white-space:nowrap}
+.menu .btn{min-height:48px;padding:0 28px;font-size:1rem;border:0}
+.ikt,.burger{display:none}
+@media (max-width:1080px) and (min-width:761px){.menu .tel{display:none}}
+@media (max-width:760px){
+  .top{background:#fff;color:var(--ink);box-shadow:0 1px 0 var(--line)}
+  .logo svg{height:30px}
+  .ikt{display:inline-flex;align-items:center;gap:7px;margin-left:auto;height:44px;padding:0 4px;font-weight:800;font-size:.95rem;text-decoration:none;color:var(--ink)}
+  .ikt svg{width:18px;height:18px}
+  .burger{display:inline-grid;place-items:center;width:46px;height:44px;border:0;background:var(--graf);cursor:pointer;padding:0;clip-path:polygon(8px 0,100% 0,calc(100% - 8px) 100%,0 100%)}
+  .burger span,.burger span::before,.burger span::after{display:block;width:20px;height:2px;background:#fff;position:relative;transition:.2s}
+  .burger span::before,.burger span::after{content:"";position:absolute;left:0}
+  .burger span::before{top:-6px}.burger span::after{top:6px}
+  .top.open .burger span{background:transparent}
+  .top.open .burger span::before{top:0;transform:rotate(45deg)}
+  .top.open .burger span::after{top:0;transform:rotate(-45deg)}
+  .menu{position:fixed;top:var(--hh);left:0;right:0;flex-direction:column;align-items:stretch;gap:0;margin:0;background:#fff;padding:8px 16px 22px;box-shadow:0 18px 30px rgba(20,24,28,.16);transform:translateY(-10px);opacity:0;visibility:hidden;transition:.2s}
+  .top.open .menu{transform:none;opacity:1;visibility:visible}
+  .menu a{padding:14px 2px;border-bottom:1px solid var(--line);font-size:1.08rem;line-height:1.5}
+  .menu a.on{border-bottom-color:var(--line);box-shadow:inset 4px 0 0 var(--blue);padding-left:14px}
+  .menu .tel{display:block}
+  .menu .btn{margin-top:16px;min-height:54px;border:0}
+}
+/* pierwszy ekran */
+.hero{position:relative;display:flex;flex-direction:column;justify-content:flex-end;min-height:100svh;padding-top:var(--hh);background:var(--graf);color:#fff;overflow:hidden}
+.hero .foto{position:absolute;inset:0;margin:0}
+.hero .foto img{width:100%;height:100%;object-fit:cover;object-position:60% 50%}
+.hero .foto::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(17,20,23,.86) 0%,rgba(17,20,23,.62) 38%,rgba(17,20,23,.1) 70%,rgba(17,20,23,0) 100%),linear-gradient(0deg,rgba(17,20,23,.9) 0%,rgba(17,20,23,0) 34%),linear-gradient(180deg,rgba(17,20,23,.55) 0%,rgba(17,20,23,0) 22%)}
+.hero-in{position:relative;z-index:2;width:var(--w);margin:0 auto;padding-bottom:clamp(30px,5vh,64px)}
+.hero h1{font-size:clamp(42px,3.9vw,86px);max-width:21ch}
+.hero .opis{font-size:clamp(17px,1.12vw,22px);line-height:1.52;max-width:46ch;margin-top:clamp(16px,2.2vh,26px);color:#e4e8eb}
+.hero .akcja{margin-top:clamp(24px,3.6vh,40px)}
+/* trasa dostawy - linia skrzydla z logo */
+.trasa{position:relative;z-index:2;width:var(--w);margin:0 auto;padding:22px 0 clamp(24px,3.6vh,40px);border-top:1px solid rgba(255,255,255,.28);display:grid;grid-template-columns:repeat(3,minmax(0,1fr)) auto;align-items:center;gap:0 clamp(12px,1.4vw,26px)}
+.trasa li{list-style:none;display:flex;align-items:center;gap:14px;font-weight:600;font-size:clamp(15px,.95vw,18px);white-space:nowrap;color:#eef2f4}
+.trasa li::after{content:"";flex:1;height:2px;background:linear-gradient(90deg,var(--blue),rgba(72,167,212,.25))}
+.trasa li .cut{height:20px;width:9px}
+.trasa li.cel::after{display:none}
+.trasa li.cel svg{height:28px;width:50px;fill:var(--blue);flex:none}
+@media (max-height:820px) and (min-width:761px){.hero h1{font-size:clamp(38px,3.7vw,70px)}.hero .opis{font-size:clamp(16px,1vw,19px)}}
+@media (max-width:1000px) and (min-width:761px){.trasa{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:12px}.trasa li:nth-child(2)::after{display:none}}
+@media (max-width:760px){
+  .hero{background:#fff;color:var(--ink);justify-content:flex-start}
+  .hero .foto{position:relative;inset:auto;flex:1 1 auto;min-height:min(58vw,30svh);clip-path:polygon(0 0,100% 0,100% calc(100% - 30px),0 100%)}
+  .hero .foto img{position:absolute;inset:0;object-position:50% 45%}
+  .hero .foto::after{background:linear-gradient(180deg,rgba(17,20,23,.25) 0%,rgba(17,20,23,0) 40%)}
+  .hero-in{flex:0 0 auto;padding:16px 0 26px}
+  .hero h1{font-size:clamp(29px,8.4vw,40px);max-width:none}
+  .hero .opis{font-size:15.5px;line-height:1.5;margin-top:12px;color:var(--mut)}
+  .hero .akcja{margin-top:24px}
+  .hero .btn{width:100%}
+  .trasa{display:none}
+}
+@media (max-width:380px){.logo svg{height:26px}.ikt{font-size:0;gap:0;width:44px;justify-content:center}.ikt svg{width:20px;height:20px}.top .wrap{gap:12px}}
+@media (max-width:760px) and (max-height:680px){.hero h1{font-size:clamp(26px,7.6vw,33px)}.hero .opis{font-size:14.5px;line-height:1.45;margin-top:10px}.hero-in{padding:12px 0 20px}.hero .akcja{margin-top:24px}}
+/* sekcje */
+.sek{padding:clamp(64px,7.5vw,140px) 0}
+.sek.szara{background:var(--g)}
+.glowa{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:24px clamp(32px,5vw,110px);align-items:end;margin-bottom:clamp(36px,4vw,72px)}
+.glowa p{color:var(--mut);font-size:clamp(17px,1.05vw,20px);max-width:56ch}
+@media (max-width:900px){.glowa{grid-template-columns:1fr}}
+/* co dostarczamy */
+.kat{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border-top:2px solid var(--graf)}
+.kat>div{padding:clamp(24px,2vw,38px) clamp(18px,1.6vw,32px) clamp(28px,2.4vw,44px) 0;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:14px;min-width:0}
+.kat>div+div{padding-left:clamp(18px,1.6vw,32px);border-left:1px solid var(--line)}
+.kat>div:nth-child(3n+1){padding-left:0;border-left:0}
+.kat .cut{margin-bottom:4px}
+.kat p{color:var(--mut);font-size:.97em;max-width:38ch}
+.kat h3{font-size:clamp(21px,1.5vw,30px)}
+.kat .zd{position:relative;margin:0;padding:0!important;border-left:0!important;overflow:hidden;background:var(--graf);min-height:260px}
+.kat .zd button{all:unset;cursor:zoom-in;position:absolute;inset:0}
+.kat .zd img{width:100%;height:100%;object-fit:cover}
+.kat .zd figcaption{position:absolute;left:0;right:0;bottom:0;padding:44px 22px 20px;color:#fff;font-weight:700;font-size:1.08rem;background:linear-gradient(0deg,rgba(17,20,23,.82),rgba(17,20,23,0));pointer-events:none}
+@media (max-width:1100px){.kat{grid-template-columns:repeat(2,minmax(0,1fr))}.kat>div:nth-child(3n+1){padding-left:clamp(18px,1.6vw,32px);border-left:1px solid var(--line)}.kat>div:nth-child(2n+1){padding-left:0;border-left:0}}
+@media (max-width:600px){.kat{grid-template-columns:1fr}.kat>div:nth-child(n){padding:22px 0 24px;border-left:0}.kat>div{display:grid;grid-template-columns:auto 1fr;gap:6px 18px;align-items:start}.kat .cut{grid-row:span 2;margin:4px 0 0}.kat .zd{display:block;min-height:0;aspect-ratio:16/10;margin-top:24px;border-bottom:0}}
+/* 1:1 */
+.zgod{background:var(--graf);color:#fff}
+.zgod .uk{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.3fr);gap:40px clamp(40px,6vw,130px);align-items:start}
+.jeden{font-size:clamp(120px,15vw,330px);font-weight:800;font-stretch:75%;line-height:.8;color:var(--blue);letter-spacing:-.03em;margin-bottom:clamp(22px,2.4vw,40px)}
+.zgod h2{max-width:16ch}
+.zgod .lead{margin-top:20px;color:#c9d0d5;max-width:44ch;font-size:clamp(17px,1.05vw,20px)}
+.pkt{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 clamp(28px,3vw,64px);margin:0;padding:0;list-style:none}
+.pkt li{padding:clamp(20px,1.7vw,30px) 0;border-top:1px solid rgba(255,255,255,.16);display:grid;grid-template-columns:auto 1fr;gap:6px 18px}
+.pkt .cut{grid-row:span 2;height:22px;width:10px;margin-top:3px}
+.pkt h3{font-size:clamp(19px,1.15vw,23px)}
+.pkt p{color:#c3cad0;font-size:.96em}
+@media (max-width:1100px){.zgod .uk{grid-template-columns:1fr}.zgod h2{max-width:20ch}}
+@media (max-width:680px){.pkt{grid-template-columns:1fr}}
+/* jak przebiega dostawa */
+.etapy{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0 clamp(20px,2.4vw,48px);margin:0;padding:0;list-style:none}
+.etapy li{position:relative;padding-top:46px}
+.etapy li::before{content:"";position:absolute;left:0;right:calc(-1 * clamp(20px,2.4vw,48px));top:13px;height:2px;background:var(--blue)}
+.etapy li:last-child::before{right:46px}
+.etapy .st{position:absolute;left:0;top:0;width:13px;height:28px;background:var(--graf);transform:skewX(-22deg)}
+.etapy li:last-child .st{display:none}
+.etapy li:last-child .pl{position:absolute;right:0;top:-2px;height:32px;width:56px;fill:var(--blue)}
+.etapy h3{margin-bottom:10px}
+.etapy p{color:var(--mut)}
+.etapy .pl{display:none}
+.etapy li:last-child .pl{display:block}
+@media (max-width:900px){
+  .etapy{grid-template-columns:1fr;gap:0}
+  .etapy li{padding:0 0 30px 44px}
+  .etapy li::before{left:5px;right:auto;top:30px;bottom:-2px;width:2px;height:auto}
+  .etapy li:last-child::before{display:none}
+  .etapy .st{top:2px}
+  .etapy li:last-child .st{display:block}
+  .etapy li:last-child .pl{display:none}
+}
+/* o firmie */
+.firma{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:40px clamp(40px,5.5vw,120px);align-items:center}
+.firma figure{margin:0;position:relative}
+.firma figure button{all:unset;display:block;cursor:zoom-in;width:100%}
+.firma figure img{width:100%;aspect-ratio:16/10;object-fit:cover;clip-path:polygon(0 0,100% 0,100% calc(100% - 46px),calc(100% - 46px) 100%,0 100%)}
+.firma figure figcaption{font-size:.86rem;color:var(--mut);margin-top:10px}
+.firma .txt>*+*{margin-top:18px}
+.firma .txt p{color:#33393e}
+.firma .misja{border-left:0;padding:22px 0 0;margin-top:28px;border-top:2px solid var(--graf);display:grid;grid-template-columns:auto 1fr;gap:18px;font-weight:600;font-size:1.06em;color:var(--ink)!important}
+.firma .misja .cut{margin-top:3px}
+.firma .osoby{font-size:.95em;color:var(--mut)!important}
+@media (max-width:900px){.firma{grid-template-columns:1fr}.firma figure img{clip-path:polygon(0 0,100% 0,100% calc(100% - 26px),calc(100% - 26px) 100%,0 100%)}}
+/* kontakt */
+.kont{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:44px clamp(40px,5vw,110px);align-items:start}
+.dane{margin-top:28px;display:grid;gap:22px}
+.dane .duzy{font-size:clamp(26px,2.1vw,40px);font-weight:800;font-stretch:85%;text-decoration:none;line-height:1.1;display:inline-block;border-bottom:3px solid var(--blue)}
+.dane .mail{font-size:clamp(19px,1.3vw,24px);font-weight:700;text-decoration:none;border-bottom:2px solid var(--blue)}
+.dane p{color:#33393e}
+.dane small{display:block;color:var(--mut);font-size:.86rem;margin-bottom:2px}
+#mapa{margin-top:30px;aspect-ratio:16/9;background:#dfe4e8;position:relative;overflow:hidden}
+#mapa iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+form{background:#fff;padding:clamp(22px,2.6vw,48px);box-shadow:0 1px 0 var(--line)}
+form h3{font-size:clamp(22px,1.5vw,28px);margin-bottom:6px}
+form .pod{color:var(--mut);font-size:.95em;margin-bottom:22px}
+.pola{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.pola .cale{grid-column:1/-1}
+label{display:block;font-weight:600;font-size:.94rem;margin-bottom:6px}
+input,textarea{width:100%;font:inherit;font-size:16px;color:var(--ink);padding:13px 14px;border:1px solid #b9c1c8;background:#fff;border-radius:0}
+textarea{min-height:130px;resize:vertical}
+input[type=file]{padding:10px;background:var(--g)}
+input:focus,textarea:focus{outline:none;border-color:var(--graf);box-shadow:0 0 0 3px rgba(72,167,212,.45)}
+[aria-invalid=true]{border-color:#c62828}
+.zg{display:flex;gap:10px;align-items:flex-start;font-weight:400;font-size:.9rem;color:var(--mut);line-height:1.45}
+.zg input{width:22px;height:22px;flex:none;margin:1px 0 0}
+form .btn{margin-top:22px}
+.ok{margin-top:16px;padding:14px 16px;background:var(--g);font-weight:600}
+@media (max-width:1000px){.kont{grid-template-columns:1fr}}
+@media (max-width:560px){.pola{grid-template-columns:1fr}form .btn{width:100%}}
+/* stopka */
+.stopka{background:#16191c;color:#c7cdd2;padding:clamp(52px,5vw,90px) 0 26px;font-size:.95rem}
+.st-g{display:grid;grid-template-columns:minmax(0,1.6fr) repeat(2,minmax(0,1fr));gap:34px clamp(30px,4vw,80px)}
+.stopka .logo{color:#fff}
+.stopka .o{margin-top:16px;max-width:40ch}
+.stopka h3{color:#fff;font-size:1rem;font-stretch:100%;margin-bottom:12px}
+.stopka ul{list-style:none;margin:0;padding:0;display:grid;gap:7px}
+.stopka a{text-decoration:none}.stopka a:hover{color:#fff}
+.st-d{margin-top:44px;padding-top:20px;border-top:1px solid rgba(255,255,255,.12);display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px 24px;font-size:.875rem;line-height:1.4}
+.st-d .wylinka-badge{font-size:1em;line-height:1.4}
+.st-d .wylinka-badge svg{width:1.15em;height:1.15em}
+@media (max-width:760px){.st-g{grid-template-columns:1fr 1fr}.st-g>div:first-child{grid-column:1/-1}.stopka{padding-bottom:calc(26px + 60px)}}
+
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+
+
+/* pasek mobilny */
+.mob{display:none}
+@media (max-width:760px){
+  .mob{position:fixed;left:0;right:0;bottom:0;z-index:40;display:grid;grid-template-columns:1fr 1.3fr;background:#fff;box-shadow:0 -1px 0 var(--line),0 -8px 20px rgba(0,0,0,.08);transform:translateY(110%);transition:transform .25s;padding-bottom:env(safe-area-inset-bottom)}
+  .mob a{display:flex;align-items:center;justify-content:center;gap:8px;min-height:56px;font-weight:800;text-decoration:none;color:var(--ink)}
+  .mob a:last-child{background:var(--blue);color:var(--graf)}
+  .mob svg{width:18px;height:18px}
+  .mob.widac{transform:none}
+}
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:100;background:rgba(14,16,19,.95);display:none;align-items:center;justify-content:center;flex-direction:column;padding:56px 12px 20px}
+.lb.otw{display:flex}
+.lb img{max-width:min(96vw,1500px);max-height:80vh;width:auto;height:auto;object-fit:contain}
+.lb p{color:#e8eaed;margin-top:14px;text-align:center;font-size:.95rem}
+.lb button{position:absolute;background:none;border:0;color:#fff;cursor:pointer;width:52px;height:52px;display:grid;place-items:center;font-size:30px;line-height:1}
+.lb .x{top:6px;right:8px}.lb .p{left:6px;top:50%;transform:translateY(-50%)}.lb .n{right:6px;top:50%;transform:translateY(-50%)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="logo" viewBox="0 0 270 50"><path fill-rule="evenodd" d="M69.6,49.8 L50.3,49.8 L51.1,48.3 L53.5,46.1 L53.6,45.3 L53.1,45.0 L51.1,45.2 L18.1,45.2 L13.8,44.8 L10.3,43.8 L8.1,42.7 L5.2,40.6 L2.0,36.9 L1.1,35.1 L0.6,33.3 L0.0,32.4 L0.0,24.9 L0.6,24.1 L1.1,22.4 L3.1,18.4 L7.1,13.1 L10.6,10.1 L13.6,8.1 L17.6,6.1 L21.0,4.9 L26.0,3.9 L32.6,3.4 L89.0,3.4 L90.6,3.2 L90.9,3.8 L90.5,4.6 L75.5,20.5 L74.3,21.2 L34.3,21.2 L30.8,22.0 L29.1,24.0 L28.8,25.3 L29.3,26.5 L31.0,27.3 L33.0,27.6 L91.8,27.7 L92.4,28.0 L92.4,28.6 L90.4,30.1 L75.3,44.1 L69.9,49.1 L69.6,49.8ZM156.3,45.1 L138.6,45.2 L137.8,44.8 L137.5,44.0 L137.6,26.5 L137.3,25.6 L136.1,25.9 L133.3,28.6 L113.8,44.9 L112.5,45.1 L97.0,45.1 L96.1,44.9 L95.8,44.1 L95.9,26.5 L95.6,25.6 L93.5,26.3 L92.0,26.0 L72.8,26.2 L72.3,26.0 L72.2,25.5 L92.7,4.1 L94.0,3.3 L113.1,3.2 L113.8,3.5 L114.2,4.6 L114.0,23.3 L114.1,23.8 L114.6,24.0 L115.5,23.6 L124.0,14.1 L133.3,4.2 L134.5,3.4 L156.5,3.2 L157.1,3.8 L157.4,4.6 L157.4,44.0 L157.1,44.8 L156.3,45.1Z"/><path fill-rule="evenodd" d="M193.3,45.0 L192.0,44.8 L191.3,42.3 L190.3,41.8 L185.6,41.9 L183.5,44.9 L182.3,45.1 L181.6,44.6 L181.9,43.6 L190.1,31.0 L191.3,29.9 L192.1,30.2 L192.7,31.5 L193.9,44.1 L193.8,44.7 L193.3,45.0ZM163.0,45.0 L161.9,45.0 L161.4,44.3 L164.5,32.8 L163.6,32.1 L161.1,32.2 L160.8,31.6 L161.0,30.7 L162.0,30.1 L171.0,30.1 L171.3,31.1 L170.5,32.2 L167.6,32.2 L166.8,32.8 L164.0,42.3 L163.7,44.3 L163.0,45.0ZM179.3,45.0 L178.1,44.9 L177.3,44.5 L176.1,39.5 L175.7,39.0 L175.1,38.8 L173.5,38.8 L172.9,39.1 L171.3,44.6 L170.1,45.0 L169.3,44.6 L172.1,33.6 L173.0,30.8 L173.6,30.1 L179.8,30.2 L181.6,31.1 L182.2,32.5 L182.2,34.0 L181.6,35.9 L180.1,37.5 L179.0,38.2 L178.6,39.0 L179.0,41.8 L179.8,44.0 L179.7,44.6 L179.3,45.0ZM200.8,45.0 L196.8,45.0 L196.3,44.8 L196.1,44.3 L199.9,31.0 L200.8,30.1 L206.3,30.2 L207.8,31.0 L208.6,31.8 L209.1,33.6 L207.7,40.5 L206.6,42.4 L205.3,43.7 L203.1,44.8 L200.8,45.0ZM218.5,45.0 L210.5,45.0 L209.8,44.5 L213.1,31.7 L213.7,30.5 L214.3,30.1 L222.1,30.0 L223.0,30.6 L222.9,31.6 L222.3,32.2 L216.1,32.2 L215.3,32.6 L215.0,33.2 L214.2,35.8 L214.5,36.6 L215.3,36.8 L219.5,36.7 L220.0,37.0 L220.1,37.6 L219.7,38.5 L219.1,38.7 L214.5,38.6 L213.6,39.0 L213.1,39.8 L212.6,42.5 L213.3,42.9 L219.3,43.0 L219.7,43.3 L219.7,44.0 L219.2,44.6 L218.5,45.0ZM177.8,36.8 L179.6,35.1 L179.9,33.8 L179.7,33.0 L178.3,32.1 L175.1,32.3 L174.1,34.3 L173.7,36.5 L174.6,36.9 L177.8,36.8ZM202.9,42.8 L204.6,41.6 L205.5,40.2 L206.8,35.6 L206.9,34.3 L206.7,33.3 L205.0,32.2 L202.5,32.1 L201.7,32.6 L201.1,34.1 L198.9,41.8 L199.0,42.6 L199.5,42.9 L202.9,42.8ZM190.3,39.8 L191.0,39.5 L191.1,38.8 L190.9,34.8 L190.5,34.1 L189.8,34.7 L187.1,39.1 L187.6,39.8 L190.3,39.8Z"/><path style="fill:#48a7d4" d="M223.6,27.8 L185.3,27.9 L184.6,27.7 L184.4,27.3 L185.8,23.1 L186.5,22.5 L195.0,21.9 L200.8,20.8 L207.0,18.7 L210.8,16.7 L216.4,12.6 L219.6,9.3 L222.7,4.8 L224.9,0.0 L231.7,0.0 L231.6,1.3 L224.6,25.8 L223.6,27.8ZM227.3,49.8 L220.7,49.8 L224.1,36.3 L228.3,22.1 L229.1,21.9 L267.8,21.8 L267.8,23.3 L267.1,23.9 L266.4,26.5 L265.6,27.2 L257.1,27.8 L251.0,29.1 L245.3,31.0 L239.8,34.1 L235.0,38.1 L232.1,41.3 L229.1,46.0 L227.3,49.8Z"/></symbol>
+  <symbol id="znak" viewBox="182 0 88 50"><path d="M223.6,27.8 L185.3,27.9 L184.6,27.7 L184.4,27.3 L185.8,23.1 L186.5,22.5 L195.0,21.9 L200.8,20.8 L207.0,18.7 L210.8,16.7 L216.4,12.6 L219.6,9.3 L222.7,4.8 L224.9,0.0 L231.7,0.0 L231.6,1.3 L224.6,25.8 L223.6,27.8ZM227.3,49.8 L220.7,49.8 L224.1,36.3 L228.3,22.1 L229.1,21.9 L267.8,21.8 L267.8,23.3 L267.1,23.9 L266.4,26.5 L265.6,27.2 L257.1,27.8 L251.0,29.1 L245.3,31.0 L239.8,34.1 L235.0,38.1 L232.1,41.3 L229.1,46.0 L227.3,49.8Z"/></symbol>
+  <symbol id="i-tel" viewBox="0 0 20 20"><path d="M6.2 2.5 8.4 6c.3.5.2 1.1-.2 1.5L7 8.6c.9 1.8 2.6 3.5 4.4 4.4l1.1-1.2c.4-.4 1-.5 1.5-.2l3.5 2.2c.5.3.7 1 .4 1.5l-.9 1.6c-.5.8-1.4 1.2-2.3 1C8.9 17 3 11.1 2.1 5.3c-.2-.9.2-1.8 1-2.3l1.6-.9c.5-.3 1.2-.1 1.5.4z" fill="currentColor"/></symbol>
+</svg>
+<a class="skip" href="#tresc">Przejdź do treści</a>
+
+<header class="top" id="top">
+  <div class="wrap">
+    <a class="logo" href="#start" aria-label="GM Trade - strona główna"><svg viewBox="0 0 270 50" fill="currentColor" aria-hidden="true"><use href="#logo"/></svg></a>
+    <a class="ikt" href="tel:+48662446112" aria-label="Zadzwoń: 662 446 112"><svg aria-hidden="true"><use href="#i-tel"/></svg>Zadzwoń</a>
+    <button class="burger" id="burger" aria-label="Otwórz menu" aria-expanded="false" aria-controls="menu"><span></span></button>
+    <nav class="menu" id="menu" aria-label="Menu główne">
+      <a href="#oferta">Co dostarczamy</a>
+      <a href="#zgodnosc">Zgodność 1:1</a>
+      <a href="#dostawa">Jak przebiega dostawa</a>
+      <a href="#firma">O firmie</a>
+      <a class="tel" href="tel:+48662446112">662 446 112</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </div>
+</header>
+
+<main id="tresc">
+<section class="hero" id="start" aria-labelledby="h1">
+  <figure class="foto">
+    <picture>
+      <source media="(max-width:760px)" srcset="img/hero-m-480.webp 480w, img/hero-m-760.webp 760w" sizes="100vw">
+      <img src="img/hero-1600.webp" srcset="img/hero-640.webp 640w, img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-2000.webp 2000w" sizes="100vw" width="1600" height="900" alt="Port kontenerowy nocą - statek z kontenerami przy dźwigach" fetchpriority="high">
+    </picture>
+  </figure>
+  <div class="hero-in">
+    <h1 id="h1">Dostawy wyposażenia dla instytucji - od specyfikacji do dostawy</h1>
+    <p class="opis">Analizujemy opis przedmiotu zamówienia, dobieramy produkty spełniające wymagania 1:1 i dowozimy zamówienie na czas, w komplecie. Jeden partner w przetargu, pełna odpowiedzialność.</p>
+    <div class="akcja"><a class="btn" href="#kontakt">Zapytaj o dostawę</a></div>
+  </div>
+  <ol class="trasa" aria-label="Trasa zamówienia">
+    <li><span class="cut" aria-hidden="true"></span>Specyfikacja (OPZ)</li>
+    <li><span class="cut" aria-hidden="true"></span>Dobór produktów 1:1</li>
+    <li><span class="cut" aria-hidden="true"></span>Kompletacja</li>
+    <li class="cel">Dostawa <svg viewBox="0 0 88 50" aria-hidden="true"><use href="#znak"/></svg></li>
+  </ol>
+</section>
+
+<section class="sek" id="oferta" aria-labelledby="h-oferta">
+  <div class="wrap">
+    <div class="glowa">
+      <h2 id="h-oferta">Co dostarczamy</h2>
+      <p>Wyposażenie zgodne z dokumentacją przetargową, z wielu branż naraz. Zamawiający ma jednego dostawcę zamiast kilku - i jedną osobę odpowiedzialną za całość.</p>
+    </div>
+    <div class="kat">
+      <div><span class="cut" aria-hidden="true"></span><h3>Sprzęt sportowy i rekreacyjny</h3><p>Wyposażenie sal gimnastycznych, boisk i miejsc rekreacji.</p></div>
+      <div><span class="cut" aria-hidden="true"></span><h3>Narzędzia i wyposażenie warsztatowe</h3><p>Dla pracowni, warsztatów szkolnych i służb technicznych.</p></div>
+      <div><span class="cut" aria-hidden="true"></span><h3>Meble biurowe, szkolne i przedszkolne</h3><p>Biura, sale lekcyjne i przedszkola - według wymiarów z opisu zamówienia.</p></div>
+      <div><span class="cut" aria-hidden="true"></span><h3>Sprzęt AGD i RTV</h3><p>Urządzenia do kuchni, świetlic, sal konferencyjnych i biur.</p></div>
+      <div><span class="cut" aria-hidden="true"></span><h3>Wyposażenie gastronomiczne i specjalistyczne</h3><p>Stołówki, zaplecza kuchenne i pozycje nietypowe ze specyfikacji.</p></div>
+      <figure class="zd"><button type="button" data-lb="img/kontenery-700.webp" aria-label="Powiększ zdjęcie"></button><img src="img/kontenery-700.webp" width="700" height="487" loading="lazy" alt="Kolorowe kontenery ułożone w łuk na tle nieba"><figcaption>Jeden dostawca zamiast kilku</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="sek zgod" id="zgodnosc" aria-labelledby="h-zgod">
+  <div class="wrap uk">
+    <div>
+      <p class="jeden" aria-hidden="true">1:1</p>
+      <h2 id="h-zgod">Precyzja, której wymagają zamówienia publiczne</h2>
+      <p class="lead">Produkt ma odpowiadać specyfikacji punkt po punkcie. Dlatego zaczynamy od dokumentacji, a nie od katalogu.</p>
+    </div>
+    <ul class="pkt">
+      <li><span class="cut" aria-hidden="true"></span><h3>Zgodność 1:1 z OPZ</h3><p>Produkty spełniają wymagania techniczne i formalne, co eliminuje ryzyko odrzucenia lub reklamacji.</p></li>
+      <li><span class="cut" aria-hidden="true"></span><h3>Obsługa od A do Z</h3><p>Od analizy dokumentacji, przez dobór i kompletację, po dostawę - jeden partner, pełna odpowiedzialność.</p></li>
+      <li><span class="cut" aria-hidden="true"></span><h3>Szeroki zakres dostaw</h3><p>Meble, sprzęt sportowy, narzędzia, AGD i RTV, gastronomia - bez angażowania wielu dostawców.</p></li>
+      <li><span class="cut" aria-hidden="true"></span><h3>Sprawdzone produkty i dostawcy</h3><p>Wiarygodni producenci i dystrybutorzy to jakość, dostępność i pewność realizacji.</p></li>
+      <li><span class="cut" aria-hidden="true"></span><h3>Terminowo i w komplecie</h3><p>Pilnujemy harmonogramu i koordynujemy logistykę całego zamówienia.</p></li>
+      <li><span class="cut" aria-hidden="true"></span><h3>Doświadczenie w przetargach</h3><p>Znamy procedury, wymagania formalne i odpowiedzialność po stronie wykonawcy.</p></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sek szara" id="dostawa" aria-labelledby="h-dost">
+  <div class="wrap">
+    <div class="glowa">
+      <h2 id="h-dost">Jak przebiega dostawa</h2>
+      <p>Ciężar doboru, zgodności i realizacji bierzemy na siebie. Zamawiający dostaje gotowe rozwiązanie zgodne z wymaganiami - bez niedomówień i bez niespodzianek.</p>
+    </div>
+    <ol class="etapy">
+      <li><span class="st" aria-hidden="true"></span><h3>Specyfikacja</h3><p>Analizujemy dokumentację przetargową (OPZ): parametry techniczne, wymagania formalne i terminy.</p></li>
+      <li><span class="st" aria-hidden="true"></span><h3>Dobór 1:1</h3><p>Dobieramy produkty, które spełniają opis przedmiotu zamówienia w każdym punkcie.</p></li>
+      <li><span class="st" aria-hidden="true"></span><h3>Kompletacja</h3><p>Zamawiamy u sprawdzonych producentów i dystrybutorów i kompletujemy wszystkie pozycje.</p></li>
+      <li><span class="st" aria-hidden="true"></span><svg class="pl" viewBox="0 0 88 50" aria-hidden="true"><use href="#znak"/></svg><h3>Dostawa</h3><p>Koordynujemy logistykę, żeby zamówienie dotarło na czas i w komplecie.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="sek" id="firma" aria-labelledby="h-firma">
+  <div class="wrap firma">
+    <figure>
+      <button type="button" data-lb="img/port-1400.webp" aria-label="Powiększ zdjęcie"><img src="img/port-800.webp" srcset="img/port-800.webp 800w, img/port-1400.webp 1400w" sizes="(max-width:900px) 100vw, 52vw" width="1400" height="788" loading="lazy" alt="Port kontenerowy i miasto nocą z lotu ptaka"></button>
+    </figure>
+    <div class="txt">
+      <h2 id="h-firma">GM Trade s.c.</h2>
+      <p>Specjalizujemy się w kompleksowej realizacji dostaw dla sektora publicznego i klientów instytucjonalnych. Wspieramy partnerów na każdym etapie: od szczegółowej analizy specyfikacji przetargowej, przez dobór produktów spełniających wymagania techniczne 1:1, po sprawną i terminową realizację zamówienia.</p>
+      <p>Od 8 lat na rynku. Na koncie mamy 1986 zrealizowanych przetargów i 1246 zadowolonych klientów.</p>
+      <p class="misja"><span class="cut" aria-hidden="true"></span><span>Naszą misją jest zagwarantowanie Klientom komfortu, satysfakcji i zadowolenia w trakcie realizacji dostaw.</span></p>
+      <p class="osoby">Wspólnicy: Grzegorz Surman, Monika Fornalczyk. Klępina, gmina Nowogród Bobrzański.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sek szara" id="kontakt" aria-labelledby="h-kont">
+  <div class="wrap kont">
+    <div>
+      <h2 id="h-kont">Zapytaj o dostawę</h2>
+      <div class="dane">
+        <div><small>Telefon</small><a class="duzy" href="tel:+48662446112">+48 662 446 112</a></div>
+        <div><small>E-mail</small><a class="mail" href="mailto:biuro@gmtrade.pl">biuro@gmtrade.pl</a></div>
+        <p><small>Adres</small>GM TRADE s.c.<br>ul. Klonowa 2, Klępina<br>66-010 Nowogród Bobrzański<br>Fax +48 68 3276 010</p>
+      </div>
+      <div id="mapa" data-src="https://www.google.com/maps?q=Klonowa+2,+Kl%C4%99pina,+66-010+Nowogr%C3%B3d+Bobrza%C5%84ski&amp;z=13&amp;output=embed" data-t="Mapa dojazdu - GM Trade, Klępina"></div>
+    </div>
+    <form id="form" novalidate>
+      <h3>Prześlij specyfikację</h3>
+      <p class="pod">Opisz zamówienie albo dołącz OPZ - odpowiemy z propozycją dostawy.</p>
+      <div class="pola">
+        <div><label for="f-n">Imię i nazwisko</label><input id="f-n" name="n" autocomplete="name" required></div>
+        <div><label for="f-i">Instytucja / firma</label><input id="f-i" name="i" autocomplete="organization"></div>
+        <div><label for="f-e">E-mail</label><input id="f-e" name="e" type="email" autocomplete="email" required></div>
+        <div><label for="f-t">Telefon</label><input id="f-t" name="t" type="tel" autocomplete="tel"></div>
+        <div class="cale"><label for="f-w">Czego dotyczy zamówienie</label><textarea id="f-w" name="w" placeholder="Np. wyposażenie sali gimnastycznej, numer postępowania, termin dostawy" required></textarea></div>
+        <div class="cale"><label for="f-p">Specyfikacja (OPZ) - opcjonalnie</label><input id="f-p" name="p" type="file" accept=".pdf,.doc,.docx,.xls,.xlsx,.zip"></div>
+        <label class="zg cale"><input type="checkbox" required> Zgadzam się na kontakt w sprawie zapytania i przetwarzanie moich danych w tym celu.</label>
+      </div>
+      <button class="btn ciem" type="submit">Wyślij zapytanie</button>
+      <p class="ok" id="msg" hidden>Dziękujemy. To podgląd strony - na gotowej stronie zapytanie trafi na biuro@gmtrade.pl.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="stopka">
+  <div class="wrap">
+    <div class="st-g">
+      <div>
+        <a class="logo" href="#start" aria-label="GM Trade - do góry"><svg viewBox="0 0 270 50" fill="currentColor" aria-hidden="true"><use href="#logo"/></svg></a>
+        <p class="o">Kompleksowe dostawy wyposażenia dla sektora publicznego i klientów instytucjonalnych. Od specyfikacji do dostawy.</p>
+      </div>
+      <div><h3>Strona</h3><ul><li><a href="#oferta">Co dostarczamy</a></li><li><a href="#zgodnosc">Zgodność 1:1</a></li><li><a href="#dostawa">Jak przebiega dostawa</a></li><li><a href="#firma">O firmie</a></li></ul></div>
+      <div><h3>Kontakt</h3><ul><li><a href="tel:+48662446112">+48 662 446 112</a></li><li><a href="mailto:biuro@gmtrade.pl">biuro@gmtrade.pl</a></li><li>ul. Klonowa 2, Klępina</li><li>66-010 Nowogród Bobrzański</li></ul></div>
+    </div>
+    <div class="st-d"><span>© <span id="rok">2026</span> GM TRADE s.c.</span><a class="wylinka-badge" href="https://wylinka.pl/?utm_source=gmtrade.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+</div>
+  </div>
+</footer>
+
+<nav class="mob" id="mob" aria-label="Szybki kontakt"><a href="tel:+48662446112"><svg aria-hidden="true"><use href="#i-tel"/></svg>Zadzwoń</a><a href="#kontakt">Zapytaj o dostawę</a></nav>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Powiększone zdjęcie">
+  <button class="x" type="button" aria-label="Zamknij">&#215;</button>
+  <button class="p" type="button" aria-label="Poprzednie">&#8249;</button>
+  <img alt="">
+  <button class="n" type="button" aria-label="Następne">&#8250;</button>
+  <p></p>
+</div>
+<script src="app.js" defer></script>
+</body>
+</html>
